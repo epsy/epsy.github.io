@@ -13,9 +13,9 @@ Yann Kaiser
     |pdf|
 
 
---------------------------------------------
-Software engineer seeking Front/Back/ML work
---------------------------------------------
+---------------------------------------------------
+Senior Software engineer seeking Front/Back/ML work
+---------------------------------------------------
 
 Available October 2019, need H-1B transfer
 

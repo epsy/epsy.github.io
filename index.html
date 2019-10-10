@@ -47,6 +47,13 @@ strong {
       display: none; }
     .document .admonition-contact p {
       margin: .3em 0; }
+  .document .pdf-link {
+    order: -1;
+    width: 100%;
+    font-weight: bold; }
+    @media print {
+      .document .pdf-link {
+        display: none; } }
 
 h1, h2, h3 {
   font-family: "Trebuchet MS", serif;
@@ -141,7 +148,6 @@ dl:not(.no-expand-link) a[href]:not([href^="mailto:"]) {
 </style>
 </head>
 <body>
-<p><a href="yann-kaiser.pdf" target="_blank" rel=noreferrer>PDF version</a><p>
 <div class="document" id="yann-kaiser">
 <h1 class="title">Yann Kaiser</h1>
 
@@ -150,6 +156,7 @@ dl:not(.no-expand-link) a[href]:not([href^="mailto:"]) {
 <p><a class="reference external" href="mailto:kaiser.yann&#64;gmail.com">kaiser.yann&#64;gmail.com</a></p>
 <p>+1 (650) 880-5524</p>
 </div>
+<p class="pdf-link"><a class="reference external" href="yann-kaiser.pdf">PDF Version</a></p>
 <div class="section" id="software-engineer-seeking-front-back-ml-work">
 <h1>Software engineer seeking Front/Back/ML work</h1>
 <p>Available October 2019</p>

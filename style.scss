@@ -1,0 +1,212 @@
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 8.3pt;
+  margin: 0 auto;
+  padding: 0 1cm;
+}
+
+@media screen {
+  body {
+    max-width: 17cm;
+    padding-bottom: 3em;
+  }
+  body.us-letter {
+    max-width: 175mm;
+  }
+}
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+strong {
+  color: rgb(38, 38, 38);
+}
+
+.document {
+  display: flex;
+  flex-wrap: wrap;
+
+  > h1 {
+    flex: 1;
+
+    font-size: 2.8em;
+    text-align: left;
+    margin-top: .5em;
+  }
+
+  .admonition-contact {
+    margin-top: 1em;
+    text-align: right;
+
+    .admonition-title {
+      display: none;
+    }
+
+    p {
+      margin: .3em 0;
+    }
+  }
+
+  .pdf-link {
+    order: -1;
+    width: 100%;
+    font-weight: bold;
+
+    @media print {
+      display: none;
+    }
+  }
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", serif;
+  color: rgb(5, 59, 113);
+}
+
+h1 {
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: .2em;
+
+  & + p {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+#no-title.section {
+  > :first-child {
+    display: none;
+  }
+}
+
+h2, .section-title {
+  font-size: 1.5em;
+  margin: .8em 0 .4em 0;
+}
+
+p {
+  margin: .75em 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+
+  $left-space: 10em;
+
+  dt {
+    margin: 0;
+    padding: 0;
+
+    float: left;
+    clear: both;
+
+    width: $left-space;
+  }
+
+  dd {
+    margin: 0;
+    padding: 0;
+
+    margin-left: $left-space;
+
+    ul {
+      margin: 0;
+      padding: 0 0 0 1em;
+
+      li {
+        margin: 0;
+        padding: 0;
+
+        position: relative;
+        list-style-type: none;
+        &::before {
+          position: absolute;
+          right: 100%;
+          content: "-";
+          padding: 0 .5em 0 0;
+          width: .5em;
+          text-align: center;
+        }
+
+        p {
+          margin: .25em;
+        }
+      }
+    }
+  }
+
+}
+
+
+#other {
+  display: flex;
+
+  h2 {
+    display: none;
+  }
+
+  h3 {
+    @extend .section-title;
+  }
+
+  h3 ~ .section {
+    margin: .5em 0;
+
+    h4 {
+      display: inline;
+      font-weight: 600;
+
+      &::after {
+        content: ': ';
+      }
+    }
+
+    ul, li, li p {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    li:not(:last-child)::after {
+      content: ', ';
+    }
+  }
+}
+
+
+@media screen {
+  #projects a {
+    font-weight: bold;
+  }
+}
+
+/* @media print { */
+  a[href],
+  a[href] strong,
+  {
+    color: blue;
+    text-decoration: none;
+  }
+
+  dl:not(.no-expand-link) a[href]:not([href^="mailto:"]),
+  {
+    font-weight: bold;
+
+    &::after {
+      font-weight: normal;
+      content: '\00a0[' attr(href) ']';
+      color: hsl(0, 0%, 50%);
+    }
+  }
+/* } */

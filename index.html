@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="generator" content="Docutils 0.15.2: http://docutils.sourceforge.net/" />
+<title>Yann Kaiser</title>
+<style type="text/css">
+
+@charset "UTF-8";
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 8.3pt;
+  margin: 0 auto;
+  padding: 0 1cm; }
+
+@media screen {
+  body {
+    max-width: 17cm;
+    padding-bottom: 3em; }
+  body.us-letter {
+    max-width: 175mm; } }
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em; }
+
+strong {
+  color: #262626; }
+
+.document {
+  display: flex;
+  flex-wrap: wrap; }
+  .document > h1 {
+    flex: 1;
+    font-size: 2.8em;
+    text-align: left;
+    margin-top: .5em; }
+  .document .admonition-contact {
+    margin-top: 1em;
+    text-align: right; }
+    .document .admonition-contact .admonition-title {
+      display: none; }
+    .document .admonition-contact p {
+      margin: .3em 0; }
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", serif;
+  color: #053b71; }
+
+h1 {
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: .2em; }
+  h1 + p {
+    margin-top: 0;
+    text-align: center; }
+
+#no-title.section > :first-child {
+  display: none; }
+
+h2, .section-title, #other h3 {
+  font-size: 1.5em;
+  margin: .8em 0 .4em 0; }
+
+p {
+  margin: .75em 0; }
+
+dl {
+  margin: 0;
+  padding: 0; }
+  dl dt {
+    margin: 0;
+    padding: 0;
+    float: left;
+    clear: both;
+    width: 10em; }
+  dl dd {
+    margin: 0;
+    padding: 0;
+    margin-left: 10em; }
+    dl dd ul {
+      margin: 0;
+      padding: 0 0 0 1em; }
+      dl dd ul li {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        list-style-type: none; }
+        dl dd ul li::before {
+          position: absolute;
+          right: 100%;
+          content: "-";
+          padding: 0 .5em 0 0;
+          width: .5em;
+          text-align: center; }
+        dl dd ul li p {
+          margin: .25em; }
+
+#other {
+  display: flex; }
+  #other h2 {
+    display: none; }
+  #other h3 ~ .section {
+    margin: .5em 0; }
+    #other h3 ~ .section h4 {
+      display: inline;
+      font-weight: 600; }
+      #other h3 ~ .section h4::after {
+        content: ': '; }
+    #other h3 ~ .section ul, #other h3 ~ .section li, #other h3 ~ .section li p {
+      display: inline;
+      margin: 0;
+      padding: 0; }
+    #other h3 ~ .section li:not(:last-child)::after {
+      content: ', '; }
+
+@media screen {
+  #projects a {
+    font-weight: bold; } }
+
+/* @media print { */
+a[href],
+a[href] strong {
+  color: blue;
+  text-decoration: none; }
+
+dl:not(.no-expand-link) a[href]:not([href^="mailto:"]) {
+  font-weight: bold; }
+  dl:not(.no-expand-link) a[href]:not([href^="mailto:"])::after {
+    font-weight: normal;
+    content: " [" attr(href) "]";
+    color: gray; }
+
+/* } */
+
+</style>
+</head>
+<body>
+<p><a href="yann-kaiser.pdf" target="_blank" rel=noreferrer>PDF version</a><p>
+<div class="document" id="yann-kaiser">
+<h1 class="title">Yann Kaiser</h1>
+
+<div class="admonition admonition-contact">
+<p class="admonition-title">Contact</p>
+<p><a class="reference external" href="mailto:kaiser.yann&#64;gmail.com">kaiser.yann&#64;gmail.com</a></p>
+<p>+1 (650) 880-5524</p>
+</div>
+<div class="section" id="software-engineer-seeking-front-back-ml-work">
+<h1>Software engineer seeking Front/Back/ML work</h1>
+<p>Available October 2019</p>
+<div class="section" id="work-experience">
+<h2>Work Experience</h2>
+<dl>
+<dt>2018 – Now</dt>
+<dd><p><strong>Senior Software Engineer</strong>
+at Criteo,
+Palo Alto, California</p>
+<p>Improved an ML data pipeline
+for creating campaign audiences
+of users likely install apps
+based on 5B rows of user data:
+Performed feature engineering,
+performance improvements
+and crash debugging.</p>
+<p>Designed and implemented
+the proof of concept for a new product
+to expand the App Install campaigns to
+users unknown to Criteo.</p>
+<p>Mentored other programmers in
+writing performant Spark code,
+introduced them to techniques such as
+property-based testing,
+efficient join techniques in Spark.</p>
+<p>Gave internal short talks,
+participated in several Hackathons.</p>
+<p>Keywords:
+<strong>Spark</strong>, Scala, Machine Learning,
+scalatest, scalacheck, scalafmt,
+JVM, classpath debugging, memory debugging,
+Graphite, Prometheus,
+Gradle, Git,
+Apache Marathon, Mesos</p>
+</dd>
+<dt>2016 – 2018</dt>
+<dd><p><strong>Software Engineer</strong>
+at Criteo,
+Paris, France and
+Palo Alto, California
+<em>(from intern to SE2)</em></p>
+<p>Improved a user data aggregation MapReduce job
+(used by 10+ teams internally)
+and its tests
+to improve agility,
+reduce errors when altering/adding new fields,
+and avoid deprecated internal interfaces.</p>
+<p>Oversaw and implemented
+the rehaul and expansion of
+an internal tool
+for the annotation of
+training/test sets
+for a machine-learning pipeline,
+and for the exploration of
+Criteo's product catalog.</p>
+<p>Implemented
+an OAuth-based client
+in order to integrate Criteo
+with advertisers who use Shopify
+in one click.</p>
+<p>Keywords:
+<strong>Hadoop</strong> MapReduce,
+Spark, Scala,
+Grafana,
+Kibana,
+Maven,
+Apache Marathon, Mesos,
+<strong>AngularNG</strong>,
+AngularJS,
+<strong>React</strong>,
+webpack loaders,
+<strong>Elasticsearch</strong>,
+Finatra,
+OAuth,
+Shopify,
+C#</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="talks">
+<h2>Talks</h2>
+<dl>
+<dt>2018</dt>
+<dd><p><strong>Tonight we won't talk about caching</strong>:
+Lightning talk
+on naming advice.
+Presented at
+the San Francisco Python Meetup Group
+in January 2018.</p>
+</dd>
+<dt>2017</dt>
+<dd><p><strong>Awaits, how do they work?</strong>:
+Full-length talk
+on Python's recent <span class="docutils literal">async</span> and <span class="docutils literal">await</span> operators
+for <strong>asynchronous programming</strong>.
+Presented at
+PyBay
+in August 2017.
+<a class="reference external" href="http://epsy.github.io/ahdtw">Slides</a>.</p>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=UXcOK7cm_ls"><strong>Unicode Primer</strong></a>:
+Short talk
+on how to handle
+non-ASCII text
+in Python.
+Presented at Pyninsula
+in November 2017.
+<a class="reference external" href="https://epsy.github.io/unicode-primer/reveal.js/">Slides</a>.</p>
+</dd>
+<dt>2016</dt>
+<dd><p>Lightning talk
+on <em>napper</em>—a concept asynchronous ReST/HATEOAS client—at the Paris.py meetup</p>
+</dd>
+<dt>2015</dt>
+<dd><p>Lightning talk
+on <em>clize</em>
+at the San Francisco Python Users Group</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="open-source-software">
+<h2>Open-source software</h2>
+<dl>
+<dt>2011 – Now</dt>
+<dd><p><a class="reference external" href="https://github.com/epsy/clize">clize</a>:
+Design, maintainance and support of
+a Python <strong>opensource library</strong>—a command-line argument parser—as well as its support library
+for metaprogramming
+(<a class="reference external" href="https://github.com/epsy/sigtools">sigtools</a>).</p>
+<p>Keywords:
+Opensource project management,
+metaprogramming,
+test suite design</p>
+</dd>
+<dt>2017</dt>
+<dd><p><a class="reference external" href="https://github.com/pybay/pybay">PyBay</a>:
+Implemented crucial parts
+of the conference website,
+enhanced mobile compatibility,
+fixed subtle CSS bugs.</p>
+<p>Keywords: <em>Django</em>, JavaScript, Mobile, CSS, GitHub</p>
+</dd>
+<dt>2016</dt>
+<dd><p><strong>arcbus</strong>:
+Real-time
+bus schedule
+Web App
+using data fetched from an external API
+and presented in a <strong>React</strong>-based interface.</p>
+<p>Keywords:
+Web API scraping,
+<strong>React</strong>,
+Python</p>
+</dd>
+<dt>2012 – 2014</dt>
+<dd><p><a class="reference external" href="https://www.reddit.com/u/tabledresser">tabledresser</a>:
+Design and maintainance of
+an autonomous program (&quot;robot&quot;)
+that converts the <em>Ask me anything</em> section
+of an online forum
+into Question/Answer tables.</p>
+<p>Keywords:
+Tight iterative development,
+use of REST APIs,
+aspects of natural language processing</p>
+</dd>
+<dt>2006 – 2012</dt>
+<dd><p><a class="reference external" href="http://www.armagetronad.org/">Armagetron Advanced</a>:
+Multiple contributions to an opensource game.</p>
+<p>Keywords:
+Online collaboration on a software project,
+network and video game programming</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="education">
+<h2>Education</h2>
+<dl>
+<dt>2014 – 2017</dt>
+<dd><p><strong>Master studies in Software Engineering</strong>,
+minoring in Internet and Telecoms <br/>
+Efrei, Engineering School of Information and Digital Technologies -
+Villejuif (Paris), France</p>
+<p><strong>Bachelor of Engineering in Computer Sciences and Mathematics</strong>
+Partnership Efrei / Université Paris-Est
+Marne-La-Vallée (UPEM), France</p>
+<p>Exchanges with <strong>UCC</strong>, Cork, Ireland, <strong>SJSU</strong>, San José, California</p>
+</dd>
+<dt>2012 – 2014</dt>
+<dd><p><strong>BSc Computing and IT</strong>
+at The Open University, UK</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="other">
+<h2>Other</h2>
+<div class="section" id="id1">
+<h3>Other</h3>
+<div class="section" id="languages">
+<h4>Languages</h4>
+<ul class="simple">
+<li><p>English (Bilingual)</p></li>
+<li><p>French (Bilingual)</p></li>
+<li><p>German</p></li>
+</ul>
+</div>
+<div class="section" id="hobbies">
+<h4>Hobbies</h4>
+<ul class="simple">
+<li><p>Photography</p></li>
+<li><p>Hiking</p></li>
+<li><p>Science-fiction</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

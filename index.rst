@@ -51,12 +51,13 @@ Work Experience
     participated in several Hackathons.
 
     Keywords:
-    **Spark**, Scala, Machine Learning,
+    **Spark**, Scala,
     scalatest, scalacheck, scalafmt,
+    Machine Learning,
     JVM, classpath debugging, memory debugging,
     Graphite, Prometheus,
     Gradle, Git,
-    Apache Marathon, Mesos
+    Apache Marathon, Mesos, Consul
 
 2016 |thru| 2018
     **Software Engineer**
@@ -94,9 +95,8 @@ Work Experience
     Kibana,
     Maven,
     Apache Marathon, Mesos,
-    **AngularNG**,
-    AngularJS,
-    **React**,
+    **AngularNG**, AngularJS, **React**,
+    TypeScript, **JavaScript**,
     webpack loaders,
     **Elasticsearch**,
     Finatra,
@@ -167,14 +167,15 @@ Open-source software
 2017
     `PyBay <https://github.com/pybay/pybay>`_:
     Implemented crucial parts
-    of the conference website,
+    of the conference website
+    such as the Schedule page,
     enhanced mobile compatibility,
     fixed subtle CSS bugs.
 
-    Keywords: *Django*, JavaScript, Mobile, CSS, GitHub
+    Keywords: **Django**, JavaScript, Mobile, CSS, GitHub
 
 2016
-    **arcbus**:
+    |arcbus|_:
     Real-time
     bus schedule
     Web App
@@ -253,10 +254,13 @@ Hobbies
 .. |thru| unicode:: U+2013
 .. |---| unicode:: U+2014
    :trim:
-.. |nbsp| unicode:: U
+.. |nbsp| unicode:: U+00A0
 .. |br| raw:: html
 
    <br/>
 
 .. |Unicode Primer| replace:: **Unicode Primer**
 .. _Unicode Primer: https://www.youtube.com/watch?v=UXcOK7cm_ls
+
+.. |arcbus| replace:: **arcbus**
+.. _arcbus: https://arcbus.herokuapp.com/?@51.680533/-9.454387

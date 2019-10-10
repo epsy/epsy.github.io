@@ -14,7 +14,7 @@ Yann Kaiser
 
 
 ---------------------------------------------------
-Senior Software engineer seeking Front/Back/ML work
+Senior Software Engineer seeking Front/Back/ML work
 ---------------------------------------------------
 
 Available October 2019, need H-1B transfer
@@ -66,12 +66,24 @@ Work Experience
     Palo Alto, California
     *(from intern to SE2)*
 
-    Improved a user data aggregation MapReduce job
+    Improved a user data aggregation MapReduce pipeline
     (used by 10+ teams internally)
     and its tests
     to improve agility,
-    reduce errors when altering/adding new fields,
-    and avoid deprecated internal interfaces.
+    to reduce the complexity of its data formats (internal and external),
+    to reduce errors when altering/adding new fields,
+    and to change how it joined 90B users
+    with the 350B products they have browsed
+    across all of Criteo's clients.
+
+    Significantly reduced tech debt and instability of a
+    product-grouping Spark pipeline.
+
+    Worked on client facing APIs
+    for campaign audience management,
+    including interactive audience size estimate
+    based on criteria input by the clients,
+    or based on anonymized lists of users.
 
     Oversaw and implemented
     the rehaul and expansion of
@@ -87,6 +99,9 @@ Work Experience
     in order to integrate Criteo
     with advertisers who use Shopify
     in one click.
+
+    Improved monitoring and Agile practices
+    of each team I worked on.
 
     Keywords:
     **Hadoop** MapReduce,

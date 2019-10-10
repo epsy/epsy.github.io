@@ -10,14 +10,14 @@ Yann Kaiser
 
 .. class:: pdf-link
 
-    `PDF Version <yann-kaiser.pdf>`_
+    |pdf|
 
 
 --------------------------------------------
 Software engineer seeking Front/Back/ML work
 --------------------------------------------
 
-Available October 2019
+Available October 2019, need H-1B transfer
 
 
 Work Experience
@@ -264,3 +264,7 @@ Hobbies
 
 .. |arcbus| replace:: **arcbus**
 .. _arcbus: https://arcbus.herokuapp.com/?@51.680533/-9.454387
+
+.. |pdf| raw:: html
+
+    <a href="Yann Kaiser.pdf" target="_blank" rel="noreferrer noopener">PDF Version</a>
